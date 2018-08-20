@@ -1,11 +1,5 @@
-.ef-container, .gh-container {
+.efgh-container {
   display: flex;
-  height: 250px;
+  height: 500px;
   font-size: 0;
 }
-
-@media only screen and (min-width: 769px) {
-  .ef-container, .gh-container {
-    height: 190px;
-    width: 380px;
-  }
