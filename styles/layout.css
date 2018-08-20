@@ -1,6 +1,11 @@
 .ef-container, .gh-container {
-  position: relative;
+  display: flex;
   height: 250px;
   font-size: 0;
 }
 
+@media only screen and (min-width: 769px) {
+  .ef-container, .gh-container {
+    height: 190px;
+    width: 380px;
+  }
