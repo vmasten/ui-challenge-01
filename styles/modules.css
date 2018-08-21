@@ -19,10 +19,10 @@
 }
 
 .e, .f, .g, .h {
-  flex-basis: 50%;
   height: 250px;
   font-size: 20px;
   line-height: 12.5em;
+  flex: 0 0 50%;
 }
 
 .i {
@@ -32,16 +32,16 @@
 
 @media only screen and (min-width: 769px) {
   body {
-    max-width: 958px;
+    max-width: 1000px;
   }
   .a {
     width: 100%;
-    height: 98px;
+    height: 100px;
     line-height: 5em;
   }
   .b {
-    height: 598px;
-    width: 198px;
+    height: 600px;
+    width: 200px;
     float: left;
     line-height: 30em;
   }
@@ -52,7 +52,7 @@
 
   .c, .d {
     width: 380px;
-    height: 198px;
+    height: 200px;
     line-height: 10em;
   }
 
@@ -64,18 +64,12 @@
     float: right;
   }
 
-  .efgh-container {
-    display: flex;
-    height: 250px;
-  }
   .e, .f, .g, .h {
-    height: 250px;
-    width: 190px;
-    /* float: left; */
     line-height: 12.5em;
+    flex: 1 1 25%;
   }
   .i {
-    height: 148px;
+    height: 150px;
     width: 100%;
     line-height: 7em;
   }
